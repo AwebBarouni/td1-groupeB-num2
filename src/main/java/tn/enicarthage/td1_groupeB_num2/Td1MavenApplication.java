@@ -1,14 +1,13 @@
 package tn.enicarthage.td1_groupeB_num2;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// org.springframework.boot.SpringApplication;
-//import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-//@SpringBootApplication
+@SpringBootApplication
 public class Td1MavenApplication {
 
     public static void main(String[] args) {
-        //SpringApplication.run(Td1MavenApplication.class, args);
+        SpringApplication.run(Td1MavenApplication.class, args);
         Produit p1 = new Produit();
         p1.setCode("P01");
         p1.setLibelle("Laptop");
